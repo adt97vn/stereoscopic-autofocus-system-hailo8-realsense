@@ -10,12 +10,6 @@ Supervision:
 
 Project Manager: Anh Duong Tran
 
-## Achievements
-This project won second place at the Poster Session of the Media Technology program and received a grade of 1.0 (German) for the Camera Technology module.
-
-<div align="center">
-  <img src="images/postersession.png" alt="Poster Session" width="60%">
-</div>
 
 Contributions:
 - Project Idea, Concept & Equipment Selection: Anh Duong Tran
@@ -23,6 +17,13 @@ Contributions:
 - Motor Control System: Angelika Allgäuer, Doron Kohler, Mark Ulanowski
 - Stereo Camera System & GUI Development: Hannah Strippel, Anh Duong Tran
 - Object Detection & Tracking: Anh Duong Tran
+
+## Achievements
+This project won second place at the Poster Session of the Media Technology program and received a grade of 1.0 (German) for the Camera Technology module.
+
+<div align="center">
+  <img src="images/postersession.png" alt="Poster Session" width="60%">
+</div>
 
 ## Overview
 <img src="images/finalResult.png" alt="Finalset" width="80%">
