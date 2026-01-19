@@ -10,6 +10,13 @@ Supervision:
 
 Project Manager: Anh Duong Tran
 
+## Achievements
+This project won second place at the Poster Session of the Media Technology program and received a grade of 1.0 (German) for the Camera Technology module.
+
+<div align="center">
+  <img src="images/postersession.png" alt="Poster Session" width="60%">
+</div>
+
 Contributions:
 - Project Idea, Concept & Equipment Selection: Anh Duong Tran
 - Control Hardware Setup: Angelika Allgäuer, Mark Ulanowski
@@ -28,11 +35,13 @@ This project implements a real-time stereoscopic autofocus system, which provide
 - An Adafruit Motor HAT to drive a stepper on the lens focus ring
 - Raspberry Pi 5
 - The whole system powered by a Vmount baterry
+
 <img src="images/controlHardware.png" alt="Hardware" width="40%">
 
 
 ## Key Features
 <img src="images/pipeline.png" alt="Pipeline" width="80%">
+
 - Launch flow: Loading screen → Calibration screen → Main screen
 - Calibration checklist with lighting condition selection
 - Live video view with adjustable ROI (drag corners)
@@ -98,7 +107,7 @@ https://docs.google.com/spreadsheets/d/1Mt2iLZNg792dCo4I_J54miuZmEHCaRKvOUn7tRtq
 - SORT tracker for consistent IDs and track selection
 - Face detection within the selected person’s crop
 - Person segmentation mask for robust depth sampling (selected vs. non-selected)
-- Optical flow around a user-selected point inside the ROI (depth windows aggregated)
+- Optical flow for non-person objects
 
 ## Focusing Logic
 - Depth readouts in meters from aligned depth frame
@@ -112,7 +121,7 @@ https://docs.google.com/spreadsheets/d/1Mt2iLZNg792dCo4I_J54miuZmEHCaRKvOUn7tRtq
 - RealSense D455 streams:
   - Color: 1280×720 @ 30 FPS
   - Depth: 848×480 @ 30 FPS
-  - Depth laser power set to 360
+  - Depth laser power set to 360 mW
 - Motor HAT:
   - Background process consumes move commands (steps + focus_time)
   - Interleaved stepping; homing back to zero on shutdown
